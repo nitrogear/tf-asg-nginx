@@ -1,9 +1,9 @@
 /*
 terraform {
   backend "s3" {
-    bucket = "twsgo-devops"
+    bucket = "<S3_BUCKET_NAME>"
     key    = "terraform/tf-asg-nginx.tfstate"
-    region = "eu-central-1"
+    region = "<S3_BUCKET_REGION>"
   }
 }
 */
